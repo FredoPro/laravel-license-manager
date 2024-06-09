@@ -1,0 +1,29 @@
+{
+ 
+ "name":"fredoantonio/laravel-license",
+ "description": "license manager for laravel apps",
+ "type":"library",
+ "license": "MIT",
+ "authors":[{
+    "name":"fredoantonio",
+     "email": "cafu92@outlook.com"
+     
+ }],
+
+ "autoload": {
+    "psr-4": {
+        "FredoAntonio\\License\\": "src/"
+    }
+ },
+  
+ "require": {
+    "php": ">=7.1",
+    "illuminate/support": "^5.8"
+ }
+
+
+
+
+
+
+}
