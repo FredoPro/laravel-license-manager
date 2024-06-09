@@ -1,9 +1,8 @@
 # laravel-license-manager
 license manager for laravel apps
 
-#Laravel license manager
 
-# Instation
+# Instalation
 
 composer require fredoantonio/laravel-license
 
