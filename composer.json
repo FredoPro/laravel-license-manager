@@ -18,8 +18,16 @@
   
  "require": {
     "php": ">=7.1",
-    "illuminate/support": "^5.8"
- }
+    "illuminate/support": "^5.8",
+    "illuminate/database": "^5.8"
+ },
+ "extra": {
+        "laravel": {
+            "providers": [
+                "FredoAntonio\\License\\TokenServiceProvider"
+            ]
+        }
+    }
 
 
 

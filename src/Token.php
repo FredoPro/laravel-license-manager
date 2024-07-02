@@ -1,6 +1,6 @@
 <?php
 
-// app/Helpers/LicenseHelper.php
+
 
 namespace FredoAntonio\License;
 
@@ -37,7 +37,7 @@ class Token
         // Verifique o checksum
         $calculatedChecksum = hash_hmac('sha256', $data, $secretKey);
         if (!hash_equals($checksum, $calculatedChecksum)) {
-            throw new \Exception('Checksum inválido');
+            throw new \Exception('Invalid checksum');
         }
 
         // Retorne os dados originais
