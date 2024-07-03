@@ -1,0 +1,9 @@
+  /*
+    "extra": {
+        "laravel": {
+            "providers": [
+                "FredoAntonio\\License\\TokenServiceProvider"
+            ]
+        }
+    }
+    */
