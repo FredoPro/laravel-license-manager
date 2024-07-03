@@ -1,6 +1,6 @@
 {
  
- "name":"fredoantonio/laravel-license",
+ "name":"fredoantonio/laravel-license-manager",
  "description": "license manager for laravel apps",
  "type":"library",
  "license": "MIT",
